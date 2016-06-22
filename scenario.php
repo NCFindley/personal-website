@@ -5,23 +5,8 @@
 	<title>Scenario</title>
 </head>
 <body>
-	<h1>Nels Findley</h1>
-		<ul id="navbuttons">
-			<li><a href='index.html'>Home</a></li>
-			<li><a href='goals.html'>Goals</a></li>
-			<li><a href='quotations.html'>Favorite Quotations</a></li>
-		</ul>
-	<h2>Articles</h2>
-		<ul>
-			<li><a style="color:red;" href="scenario.html">Scenario of Cybersecurity</a></li>
-			<li><a href="web_medium.html">How the Web works as Medium</a></li>
-		</ul>
-	<h2>My Profiles</h3>
-		<ul>
-			<li><a href = "https://github.com/NCFindley">GitHub</a></li>
-			<li><a href = "https://www.linkedin.com/in/nels-findley-917b24116">LinkedIn</a></li>
-			<li><a href="https://mobile.twitter.com/NelsFin">Twitter</a></li>
-		</ul>
+	<?php include("navigation.php"); ?>
+		
 
 	<h3>The Big Hack</h3>
 		<p>"The Big Hack" article described a scenario in New York City under attack of multiple hackers.  It explains events that multiple cybersecurity experts, hackers, and government official believe that can happen or events that already happened. Then imagine if all these scenarios happen at the same time in such big city as New York City. 
