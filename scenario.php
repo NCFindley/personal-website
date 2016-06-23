@@ -3,7 +3,6 @@
 <head>
 	<title>Scenario</title>
 </head>
-<body>
 	<?php include("navigation.php"); ?>
 		
 
@@ -14,5 +13,4 @@
 		The next question is where were the government U.S officials for preventing cybersecurity attacks? As the numerous incidents kept adding up the head of cybersecurity begun connecting the dots but it took till noon to issue warning out to New York City.  Shortly after the warning went out the power plants was also affected causing multiple subway cars carrying thousands of passengers to be stuck or forced to walk through the subway. 
 		I believe this article described the many cybersecurity threats that have occurred or can possibly happen. It explained the potential of group of hackers planning well-coordinated attack that crippled major city in hours. It also leads to the question is the United States this vulnerable to attacks as it's hard to believe in software we can't physically see and knowing that these hacks have happened in the past but on much smaller scale. 
 		</p>
-</body>
 </html>

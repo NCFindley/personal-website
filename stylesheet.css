@@ -1,8 +1,35 @@
-#navbuttons li {
-    display: flex;
-    justify-content: flex-start;
+h2{
+	background-color: #C5E0DC;
+	align-items: center;
+	margin-right: 30px;
+    width: 175px;
+    line-height: 60px;
+
 }
 h3{
 	display: flex;
 	justify-content: center;
+/*	align-items: flex-start; */
+	top: 10%;
+}
+div{
+	
+}
+
+#navbar{
+	display: block;
+	background-color: #C5E0DC;
+	margin-right: 30px;
+    width: 210px;
+    line-height: 20px;
+	
+ 
+	
+
+}
+
+#social {
+	background-color: #774F38;
+    width: 175px;
+    margin-left: 0px;
 }
