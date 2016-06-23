@@ -11,12 +11,17 @@
 	$artname = array ("Scenario of Cybersecurity", "How the Web works as Medium");
 	?>
 <h1>Nels Findley</h1>
+	<div>
+			<a href = "https://github.com/NCFindley"><img title="GitHub" alt="GitHub" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"></a>
+			<a href = "https://www.linkedin.com/in/nels-findley-917b24116"><img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" /></a>
+			<a href="https://mobile.twitter.com/NelsFin"> <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" /></a>
+		</div>
 <ul id="navbuttons">
 
 
 			<?php while ($i < count($mainarray)) { 
 			?>
-				<li><a 
+				<li><a
 				<?php if ($mainarray[$i] == $trimfile) {
 					echo 'style="color:blue;"';
 				} ?>
@@ -42,9 +47,4 @@
 
 			} ?>
 		</ul>
-	<h2>My Profiles</h3>
-		<ul>
-			<li><a href = "https://github.com/NCFindley">GitHub</a></li>
-			<li><a href = "https://www.linkedin.com/in/nels-findley-917b24116">LinkedIn</a></li>
-			<li><a href="https://mobile.twitter.com/NelsFin">Twitter</a></li>
-		</ul>
+		
