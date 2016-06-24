@@ -3,17 +3,35 @@ body {
 }
 
 #social {
-	background-color: green;
+   
+    background-color: green;
+
+    
     width: 210px;
     clear: left;
     position: absolute;
     left: 0%;
-    top: 0%;
+    top: 0%; 
+    display: inline-block;
+    border: 5px solid black;
+
+
+
 }
 #navbar{
-	display: block;
-	background-color: #C5E0DC;
-	margin-right: 30px;
+ 
+    display: block;
+    background-color: white;
+    margin-right: 30px;
     width: 210px;
-    line-height: 20px;
+    line-height: 20px; 
+}
+
+#articles{
+    position: absolute;
+    left: 22%;
+    top: 0%;
+}
+h3 {
+    text-align: center;
 }

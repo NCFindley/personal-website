@@ -3,32 +3,36 @@ body {
 }
 
 #social {
+   
 	background-color: #774F38;
+
+    
     width: 210px;
     clear: left;
     position: absolute;
     left: 0%;
-    top: 0%;
+    top: 0%; 
+    display: inline-block;
+    border: 5px solid goldenrod;
+
+
+
 }
 #navbar{
+ 
 	display: block;
 	background-color: #C5E0DC;
 	margin-right: 30px;
     width: 210px;
-    line-height: 20px;
+    line-height: 20px; 
 }
 
-h3{
-    position: fixed;
-    left: 50%;
-}
-
-p{
-    position: fixed;
+#articles{
+    position: absolute;
     left: 22%;
+    top: 0%;
+}
+h3 {
+    text-align: center;
 }
 
-ol {
-    position: fixed;
-    left: 22%;
-}
