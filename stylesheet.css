@@ -17,3 +17,18 @@ body {
     width: 210px;
     line-height: 20px;
 }
+
+h3{
+    position: fixed;
+    left: 50%;
+}
+
+p{
+    position: fixed;
+    left: 22%;
+}
+
+ol {
+    position: fixed;
+    left: 22%;
+}

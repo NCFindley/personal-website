@@ -1,20 +1,21 @@
-<?php if ( $_GET["theme"] === "egg"){ ?>
+<?php if ($_GET["theme"] == "egg"){ 
+?>
 			<link type="text/css" rel="stylesheet" href="easteregg.css">
-<?php }else {  ?>
+<?php } else {  
+?>
 			<link type="text/css" rel="stylesheet" href="stylesheet.css">
 <?php } 
 
-$url = "quotations.php"; 
-$i = 0;
-$filename = $_SERVER['PHP_SELF'];
-$currentfile = strrchr($filename, "/");
-$trimfile = ltrim($currentfile, "/");
-$mainarray = array ("index.php", "goals.php", "quotations.php");
-$urlname = array ("Home", "Goals", "Quotations");
-$arturl = array("scenario.php", "web_medium.php");
-$artname = array ("Scenario of Cybersecurity", "How the Web Works as Medium");
+	$i = 0;
+	$filename = $_SERVER['PHP_SELF'];
+	$currentfile = strrchr($filename, "/");
+	$trimfile = ltrim($currentfile, "/");
+	$mainarray = array ("index.php", "goals.php", "quotations.php");
+	$urlname = array ("Home", "Goals", "Quotations");
+	$arturl = array("scenario.php", "web_medium.php");
+	$artname = array ("Scenario of Cybersecurity", "How the Web Works as Medium");
 ?>
-<body>
+
 <div id = "social">
 	<h1>Nels Findley</h1>
 
@@ -22,35 +23,39 @@ $artname = array ("Scenario of Cybersecurity", "How the Web Works as Medium");
 		<a href = "https://github.com/NCFindley"><img title="GitHub" alt="GitHub" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"></a>
 		<a href = "https://www.linkedin.com/in/nels-findley-917b24116"><img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" /></a>
 		<a href="https://mobile.twitter.com/NelsFin"> <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" /></a>
-		<a href="http://localhost:8888/personal-website/?theme=egg"> <img title="Egg" alt="Egg" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe06-g6-zLq8M7arcu6MMj7pLaTbcK5cRC6I984hwj9dR9DMSz1jqNdPM" width="35" height="35" /></a>
+		<a href="<?php echo $trimfile; ?>?theme=egg"> <img title="Egg" alt="Egg" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe06-g6-zLq8M7arcu6MMj7pLaTbcK5cRC6I984hwj9dR9DMSz1jqNdPM" width="35" height="35" /></a>
 	</div>
 
 	<div id = "navbar">
 		<h2>Myself</h2>
-				<?php while ($i < count($mainarray)) { 
+				<?php while ($i < count($mainarray)) 
+				{ 
 				?>
-					<div><a id = "navbar"
+					<div><a
 					<?php if ($mainarray[$i] == $trimfile) {
 						echo 'style="color:blue;"';
 					} ?>
-					href="<?php echo $mainarray[$i]; ?>"> <?php echo $urlname[$i] ?></a></div>
+					href="<?php echo $mainarray[$i]; ?>"> <?php echo $urlname[$i] ?></a>
+					</div>
 					<?php $i = $i + 1;
+					
 
 				} ?>
+					
 
 		<h2>Articles</h2>
 				<?php 
 					$i = 0;
 					while ($i < count($arturl)) { 
 				?>
-					<div><a id = "navbar"
+					<div><a
 					<?php if ($arturl[$i] == $trimfile) {
 						echo 'style="color:blue;"';
 					} ?>
-					href="<?php echo $arturl[$i]; ?>"> <?php echo $artname[$i] ?></a></div>
+					href="<?php echo $arturl[$i]; ?>"> <?php echo $artname[$i] ?></a>
+					</div>
 					<?php $i = $i + 1;
 
 				} ?>
 	</div>
 </div>
-</body>
