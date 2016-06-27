@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Goals</title>
-</head>
-<body>
-	<?php include("navigation.php"); ?>
+	<?php
+		$title = "Goals";
+		include("top.php");
+		include("navigation.php"); ?>
 
 	<div id = "articles">
 		<h2>Professional Goals</h2>
@@ -19,5 +16,6 @@
 				<li>Learn to do new things</li>
 			</ol>
 	</div>
-</body>
-</html>
+<?php
+	include("bottom.php");
+?> 

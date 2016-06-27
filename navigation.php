@@ -19,11 +19,11 @@
 <div id = "social">
 	<h1>Nels Findley</h1>
 
-	<div>
-		<a href = "https://github.com/NCFindley"><img title="GitHub" alt="GitHub" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="40" height="40"></a>
-		<a href = "https://www.linkedin.com/in/nels-findley-917b24116"><img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" width="35" height="35" /></a>
-		<a href="https://mobile.twitter.com/NelsFin"> <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" /></a>
-		<a href="<?php echo $trimfile; ?>?theme=egg"> <img title="Egg" alt="Egg" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe06-g6-zLq8M7arcu6MMj7pLaTbcK5cRC6I984hwj9dR9DMSz1jqNdPM" width="35" height="35" /></a>
+	<div id = "socbutton">
+		<a  href = "https://github.com/NCFindley"><img title="GitHub" alt="GitHub" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" </a>
+		<a id = "socbutton" href = "https://www.linkedin.com/in/nels-findley-917b24116"><img title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin.png" /></a>
+		<a id = "socbutton" href="https://mobile.twitter.com/NelsFin"> <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" /></a>
+		<a id = "socbutton" href="<?php echo $trimfile; ?>?theme=egg"> <img title="Egg" alt="Egg" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe06-g6-zLq8M7arcu6MMj7pLaTbcK5cRC6I984hwj9dR9DMSz1jqNdPM" /></a>
 	</div>
 
 	<div id = "navbar">

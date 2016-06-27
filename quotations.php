@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Quotations</title>
-</head>
-<body>
-	<?php include("navigation.php"); ?>
+<?php 
+	$title = "Quotations";
+	include("top.php");
+	include("navigation.php"); ?>
 
 	<div id = "articles">
 		<h3>Movie Quotes</h3>
@@ -14,5 +11,4 @@
 				<li>"I'll be back" - The Terminator</li>
 			</ol>
 	</div>
-</body>
-</html>
+<?php include("bottom.php"); ?>

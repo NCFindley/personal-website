@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Nels Findley Home Page</title>
-</head>
-<body>
-	<?php include("navigation.php"); ?>
-</body>
-</html>
+<?php 	
+	
+	$title = "Nels Findley Home";
+	include("top.php");
+	include("navigation.php"); 
+
+	?>
+
+	<p id = "articles"> add info here </p>
+
+<?php
+	include("bottom.php");
+?> 
