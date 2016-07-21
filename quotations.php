@@ -3,8 +3,8 @@
 	include("top.php");
 	include("navigation.php"); ?>
 
-	<div id = "articles">
-		<h3>Movie Quotes</h3>
+	<div class = "articles">
+		<h3 class = "articles__header">Movie Quotes</h3>
 			<ol>
 				<li>"I'm have come here to chew bubblegum and kick ass... and I'm all out of bubblegum" -They Live</li>
 				<li>"May the force be with you" - Star Wars</li>

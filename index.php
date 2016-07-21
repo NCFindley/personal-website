@@ -6,7 +6,7 @@
 
 	?>
 
-	<p id = "articles"> add info here </p>
+	<p class = "articles"> </p>
 
 <?php
 	include("bottom.php");
